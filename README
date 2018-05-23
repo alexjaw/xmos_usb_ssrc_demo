@@ -1,0 +1,28 @@
+AJ 2018-05-22.
+Created this workspace in order to merge ssrc app code (https://www.xcore.com/viewtopic.php?f=26&t=6593, uploaded by infiniteimprobability on Sat Apr 28, 2018 2:20 pm) with latest usb framwork (sw_usb_audio-[sw]_6.15.2rc1)
+
+It is version controlled with git.
+
+Some details about the ssrc app (see also the forum thread):
+It was created as a prototype for an Application Note AN00230, to show how  synchronous sample rate conversion can be used together with the xmos usb audio stack. Adding ssrc to usb is a rather advanced operation and requires wery good understanding of the usb framwork. To this date, there does not exist any good examples for such advanced changes to the framework. The best example that I know (but much simpler), is adding dsp functionality, see http://www.xcore.com/viewtopic.php?f=8&t=6305&p=31744&hilit=dsp+xcore+200#p31744.
+
+Therefore, it would be great to get this up and running.
+
+Observe that there will be additional work to modify the usb app to work in BAP2. usp app works wery much as a central unit on the dev boards, whereas it will be more of a slave for the dsp in BAP2.
+
+The ssrc app was made before lib_src was official, therefore the app code must be updated for the official lib_src. There might also be changes to the channel protocol. Have run diff for the varius files in the ssrc app and here are some of the findings:
+
+--- main.xc ---
+Most of the changes are guarded with SSRC_DEMO so it should be easy to merge.
+
+--- usb_buffer.h/.xc ---
+Little more tricky, not guarded with SSRC_DEMO as main.xc
+
+--- Makefile ---
+Should be fairly easy to merge.
+
+--- customdefines.h
+Easy. Observe that HID_Controls 0 in ssrc app.
+
+--- folder dsp_manager ---
+Here we have the machinery that adds ssrc features to the usb app. Have to update the function names so that they match the official lib_src. ssrc.h is used in dsp_wrapper.c (with the old SSRC_proc() function call, replaced with ssrc_process())
