@@ -25,4 +25,6 @@ Should be fairly easy to merge.
 Easy. Observe that HID_Controls 0 in ssrc app.
 
 --- folder dsp_manager ---
-Here we have the machinery that adds ssrc features to the usb app. Have to update the function names so that they match the official lib_src. ssrc.h is used in dsp_wrapper.c (with the old SSRC_proc() function call, replaced with ssrc_process())
+Here we have the machinery that adds ssrc features to the usb app.
+
+Having done some initial test to use ssrc app with official lib_src, I start with lib_strc found on github. Then later I have to update the function names so that they match the official lib_src. ssrc.h is used in dsp_wrapper.c (with the old SSRC_proc() function call, replaced with ssrc_process()). However there are structs that might be much more tricky to convert to the official lib_src.

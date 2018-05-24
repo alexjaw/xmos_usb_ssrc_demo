@@ -7,11 +7,26 @@ APP_NAME =
 
 # The flags passed to xcc when building the application
 BUILD_FLAGS     = -DFLASH_MAX_UPGRADE_SIZE=64*1024 -fcomment-asm -Xmapper --map -Xmapper MAPFILE -Wall -O3 -report -lquadflash -fsubword-select -save-temps -g -fxscope -DXSCOPE -DSDA_HIGH=2 -DSCL_HIGH=1 -DXUD_SERIES_SUPPORT=4 -march=xs2a -DUSB_TILE=tile[1] -DADAT_TX_USE_SHARED_BUFF=1 -DQUAD_SPI_FLASH=1
+BUILD_FLAGS    += -Wno-missing-braces
 
 # The USED_MODULES variable lists other module used by the application. These
 # modules will extend the SOURCE_DIRS, INCLUDE_DIRS and LIB_DIRS variables. 
 # Modules are expected to be in the directory above the BASE_DIR directory.
-USED_MODULES = module_usb_shared module_xud module_usb_audio module_spdif_tx module_spdif_rx module_usb_midi module_dfu module_usb_device module_i2c_shared module_i2c_single_port module_adat_tx module_adat_rx
+USED_MODULES  = module_usb_shared \
+                module_xud \
+                module_usb_audio \
+                module_spdif_tx \
+                module_spdif_rx \
+                module_usb_midi \
+                module_dfu \
+                module_usb_device \
+                module_i2c_shared \
+                module_i2c_single_port \
+                module_adat_tx \
+                module_adat_rx
+# Using the full path, otherwise eclipse picks up some other folder with xmake error as result (...Is a directory)
+USED_MODULES += /home/alexander/xmos-ssrc/lib_src-master/lib_src 
+# USED_MODULES += lib_src
 
 # Build config naming scheme:
 
@@ -40,6 +55,10 @@ MFI ?= 0
 ifeq ($(MFI), 0)
 
 # Test build configs (Note these make use of the defaults in customdefines.h)
+
+# Audio Class 2, Input, Output, MIDI, SPDIF
+XCC_FLAGS_i0o2xxxxxx = $(BUILD_FLAGS) -DMIDI=0 -DSPDIF_TX=0
+INCLUDE_ONLY_IN_i0o2xxxxxx = 
 
 # Audio Class 2, Input (8), Output (8), No MIDI, No SPDIF i/o, No ADAT i/o, TDM mode
 XCC_FLAGS_2i8o8xxxxx_tdm8  = $(BUILD_FLAGS) -DI2S_CHANS_DAC=8 -DI2S_CHANS_ADC=8 -DNUM_USB_CHAN_OUT=8 -DNUM_USB_CHAN_IN=8 \
@@ -165,4 +184,6 @@ MODULE_LIBRARIES = xud_x200
 # for compiling XMOS applications. You should not need to edit below here.
 
 XMOS_MAKE_PATH ?= ../..
+# For debug:ll
+# $(info $$XMOS_MAKE_PATH is [${XMOS_MAKE_PATH}])
 include $(XMOS_MAKE_PATH)/xcommon/module_xcommon/build/Makefile.common
