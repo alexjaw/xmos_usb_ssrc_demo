@@ -69,8 +69,46 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs1b}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs2a}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/ssrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/ssrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst/images}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/asrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/asrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
 								</option>
-								<option id="com.xmos.xc.compiler.option.defined.symbols.286304813" superClass="com.xmos.xc.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.xc.compiler.option.defined.symbols.286304813" name="com.xmos.xc.compiler.option.defined.symbols" superClass="com.xmos.xc.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__XC__=1"/>
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__ATOMIC_RELAXED=0"/>
@@ -268,8 +306,46 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs1b}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs2a}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/ssrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/ssrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst/images}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/asrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/asrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
 								</option>
-								<option id="com.xmos.c.compiler.option.defined.symbols.1982331858" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.c.compiler.option.defined.symbols.1982331858" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__clang__=1"/>
 									<listOptionValue builtIn="false" value="__clang_major__=3"/>
@@ -615,8 +691,46 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs1b}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs2a}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/ssrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/ssrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst/images}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/asrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/asrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
 								</option>
-								<option id="com.xmos.cxx.compiler.option.defined.symbols.838199973" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.cxx.compiler.option.defined.symbols.838199973" name="com.xmos.cxx.compiler.option.defined.symbols" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__clang__=1"/>
 									<listOptionValue builtIn="false" value="__clang_major__=3"/>

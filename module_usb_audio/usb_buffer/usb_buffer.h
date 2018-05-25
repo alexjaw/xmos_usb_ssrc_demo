@@ -56,5 +56,8 @@ void buffer(chanend c_aud_out,
 #ifdef CHAN_BUFF_CTRL
             , chanend c_buff_ctrl
 #endif
+#if SSRC_DEMO
+            , chanend c_i2s_sampfreq
+#endif
         );
 #endif
