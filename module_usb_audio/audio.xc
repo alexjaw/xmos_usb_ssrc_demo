@@ -12,6 +12,7 @@
 #include <xs1.h>
 #include <xclib.h>
 #include <xs1_su.h>
+#include <xscope.h>
 
 #include "devicedefines.h"
 
@@ -502,6 +503,8 @@ unsigned static deliver(chanend c_out, chanend ?c_spd_out,
     /* Main Audio I/O loop */
     while (1)
     {
+        xscope_int(LEFT_OUT, samplesOut[0]);
+        xscope_int(RIGHT_OUT, samplesOut[1]);
 
 #if (DSD_CHANS_DAC != 0) && (NUM_USB_CHAN_OUT > 0)
         if(dsdMode == DSD_MODE_NATIVE)
