@@ -1,5 +1,4 @@
 <xSCOPEconfig ioMode="basic" enabled="true">
 	<Probe name="Left out" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
 	<Probe name="Right out" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
-	<Probe name="Gain" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
 </xSCOPEconfig>
