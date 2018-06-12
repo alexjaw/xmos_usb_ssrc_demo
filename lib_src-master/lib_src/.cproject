@@ -33,7 +33,7 @@
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/clang&quot;"/>
 								</option>
-								<option id="com.xmos.xc.compiler.option.defined.symbols.648192878" superClass="com.xmos.xc.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.xc.compiler.option.defined.symbols.648192878" name="com.xmos.xc.compiler.option.defined.symbols" superClass="com.xmos.xc.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__XC__=1"/>
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__ATOMIC_RELAXED=0"/>
@@ -195,7 +195,7 @@
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/clang&quot;"/>
 								</option>
-								<option id="com.xmos.c.compiler.option.defined.symbols.731240610" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.c.compiler.option.defined.symbols.731240610" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__clang__=1"/>
 									<listOptionValue builtIn="false" value="__clang_major__=3"/>
@@ -505,7 +505,7 @@
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/clang&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/c++/v1&quot;"/>
 								</option>
-								<option id="com.xmos.cxx.compiler.option.defined.symbols.298119145" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.cxx.compiler.option.defined.symbols.298119145" name="com.xmos.cxx.compiler.option.defined.symbols" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__clang__=1"/>
 									<listOptionValue builtIn="false" value="__clang_major__=3"/>

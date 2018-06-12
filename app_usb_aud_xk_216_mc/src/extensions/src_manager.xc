@@ -234,8 +234,8 @@ void src_manager_task(chanend c_host, chanend c_i2s, streaming chanend c_dsp[SSR
                 unsafe{                              //pull samples from FIFO
                     success &= pull_sample_from_fifo(samp, ptr_wr_samps_to_i2s[i], &ptr_rd_samps_to_i2s[i], ptr_base_samps_to_i2s[i]);
                 }
-                //if (i==0) xscope_int(TO_I2S, samp); //bak
-                if (i==0) xscope_int(-1, samp);
+                if (i==0) xscope_int(TO_I2S, samp); //bak
+                //if (i==0) xscope_int(-1, samp);
 
                 if(success) outuint(c_i2s, samp);  //Send sample to i2s
                 else        outuint(c_i2s, 0);     //Mute if buffer under/over-run
@@ -282,8 +282,8 @@ void src_manager_task(chanend c_host, chanend c_i2s, streaming chanend c_dsp[SSR
 #pragma loop unroll
                 for (int chan_i=0; chan_i<NUM_USB_CHAN_OUT; chan_i++){  //Get samples from host
                     int samp = inuint(c_host);
-                    //if (chan_i==0) xscope_int(FROM_DECOUPLE, samp);  //bak
-                    if (chan_i==0) xscope_int(-1, samp);
+                    if (chan_i==0) xscope_int(FROM_DECOUPLE, samp);  //bak
+                    //if (chan_i==0) xscope_int(-1, samp);
                     g_samps_from_host[chan_i/NUM_CHANNELS_PER_SSRC]
                                      [samples_idx]
                                      [chan_i % NUM_CHANNELS_PER_SSRC] = samp;
