@@ -1,0 +1,9 @@
+Downloaded from
+https://www.xcore.com/viewtopic.php?f=26&t=6593
+
+What is this?
+We are trying to incorporate xmos-200 with USB framework for bap2 with the new ADAU1467 DSP running at 192/32. One issue is that we need to downsample usb audio that is above 192kHz before passing it to the dsp. This folder and the reference is the result of a discussion with one of the xmos engineers about our problem. The files that he supplied, and which is in the folder is an example that is closely related to our problem. Is shows how xmos dsp library and downsampling can be incorporated into the xmos usb framework.
+
+I have tested to run he binary app_usb_aud_xk_216_mc_output.xe and as far I could see it worked as a charm. Observe that the app does only provide functionality up to 192 due to the hardware on the dev board. However, there is power in the processor to handle decimation by 2 for 384k (read the thread).
+
+/18-05-18 Alexander
