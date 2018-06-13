@@ -156,6 +156,8 @@ static inline unsigned trigger_dsp(streaming chanend c_dsp[SSRC_THREADS],
             for (int k=0; k<NUM_CHANNELS_PER_SSRC; k++){            //..for each channel handled by engine
                 int samp;
                 c_dsp[i] :> samp;
+                if (i==0) xscope_int(TO_I2S_LEFT, samp);
+                if (i==1) xscope_int(TO_I2S_RIGHT, samp);
                 unsigned channel_no = k + i * NUM_CHANNELS_PER_SSRC;
                 unsafe{                                                 //And push them into the FIFO
                     success &= push_single_sample_to_fifo(samp,
@@ -204,18 +206,28 @@ void src_manager_task(chanend c_host, chanend c_i2s, streaming chanend c_dsp[SSR
         t :> t2;
         if (control_flag){              //SR or stream change flag from host transaction
             outct(c_i2s, command[0]);   //Send command
+
+            /*  SET_SAMPLE_FREQ         4
+                SET_STREAM_FORMAT_OUT   8
+                SET_STREAM_FORMAT_IN    9 */
+            printf("Received SR or stream change\n");
             switch(command[0])
             {
                 case SET_SAMPLE_FREQ:
+                    printf("Received request SET_SAMPLE_FREQ from audio (c_i2s)\n");
                     printf("I2S running at SR=%d\n", sr_i2s);
                     printf("Host running at SR=%d\n", sr_host);
                     outuint(c_i2s, sr_i2s);
+                    printf("Sent to audio (c_i2s): %d\n", sr_i2s);
                     break;
 
                 case SET_STREAM_FORMAT_OUT:
+                    printf("Received request SET_STREAM_FORMAT_OUT from audio (c_i2s)\n");
                 case SET_STREAM_FORMAT_IN:
                     outuint(c_i2s, command[1]);
                     outuint(c_i2s, command[2]);
+                    printf("Sent to audio (c_i2s): %d\n", command[1]);
+                    printf("Sent to audio (c_i2s): %d\n", command[2]);
                     break;
 
                 default:
@@ -237,7 +249,12 @@ void src_manager_task(chanend c_host, chanend c_i2s, streaming chanend c_dsp[SSR
                 if (i==0) xscope_int(TO_I2S, samp); //bak
                 //if (i==0) xscope_int(-1, samp);
 
-                if(success) outuint(c_i2s, samp);  //Send sample to i2s
+                if(success) {
+                    outuint(c_i2s, samp);  //Send sample to i2s
+                    if (samp) {
+                        printf("Sent one sample to audio: %d\n", samp);
+                    }
+                }
                 else        outuint(c_i2s, 0);     //Mute if buffer under/over-run
             }
             if(!success){   //Only reset FIFO when whole packet transferred to keep FIFO pointers properly aligned
@@ -265,12 +282,16 @@ void src_manager_task(chanend c_host, chanend c_i2s, streaming chanend c_dsp[SSR
                         sr_host = command[1];
                         samp_rate_code = (samp_rate_to_code(sr_host) << 16) | samp_rate_to_code(sr_i2s);
                         c_i2s_sampfreq <: sr_i2s; //Send sample rate to buffer for correct MCLK calc
+                        printf("Received SET_SAMPLE_FREQ from host. Setting to sr %d\n", sr_host);
                         break;
 
                     case SET_STREAM_FORMAT_OUT:
                     case SET_STREAM_FORMAT_IN:
                         command[1] = inuint(c_host); //Get command packet
                         command[2] = inuint(c_host);
+                        printf("Received SET_STREAM_FORMAT_OUT/IN from host.\n");
+                        printf("Recv from host (c_host): %d\n", command[1]);
+                        printf("Recv from host (c_host): %d\n", command[2]);
                         break;
 
                     default:
@@ -297,6 +318,7 @@ void src_manager_task(chanend c_host, chanend c_i2s, streaming chanend c_dsp[SSR
                 t :> t0;
                 unsigned n_samps_from_dsp = trigger_dsp(c_dsp, g_samps_from_host, samp_rate_code);
                 t :> t1;
+                //printf("trigger_dsp triggered.\n");
             }
         } //for loops n_samps
 
@@ -358,6 +380,7 @@ void dsp_task(streaming chanend c_dsp, unsigned instance_id)
     unsigned count = instance_id * 100; //give it an offset so they don't print at the same time
 
     unsigned int    n_samps_out = 0;
+    unsigned int    n_samps_out_old = 0;
     unsigned int    n_samps_in = 0;
 
     memset(out_buff, 0, SSRC_N_IN_SAMPLES * SSRC_N_IN_OUT_RATIO_MAX * NUM_CHANNELS_PER_SSRC * 4);
@@ -393,11 +416,26 @@ void dsp_task(streaming chanend c_dsp, unsigned instance_id)
 
             dsp_init(InFs, OutFs, instance_id);
             sr_in_out = sr_in_out_new;
+
+            /* Code  FS
+             * 0     44100
+             * 1     48000
+             * 2     88200
+             * 3     96000
+             * 4    176400
+             * 5    192000*/
+            printf("Call to dsp_init performed. InstanceId = %d, InFs = %d, OutFs = %d\n", instance_id, InFs, OutFs);
         }
         t:> t1;
         //printf("DSP in instance %d do dsp\n", instance_id);
         n_samps_out = dsp_process(in_buff, out_buff, instance_id);
+        if (n_samps_out_old != n_samps_out) {
+            printf("n_samps_out = %d, n_samps_out_old = %d, n_samps_in = %d\n", n_samps_out, n_samps_out_old, n_samps_in);
+            n_samps_out_old = n_samps_out;
+        }
         t :> t2;
+        xscope_int(FROM_DECOUPLE_DSP_TASK, in_buff[0]);  //From decouple dsp task
+        xscope_int(FROM_DSP_DSP_TASK, out_buff[0]);      //From dsp dsp task
     }
 }
 
