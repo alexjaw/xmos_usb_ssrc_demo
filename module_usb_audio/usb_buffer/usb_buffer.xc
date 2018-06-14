@@ -32,8 +32,11 @@ void GetADCCounts(unsigned samFreq, int &min, int &mid, int &max);
 #define BUFFER_SIZE_IN        (1028 >> 2)
 
 /* Packet nuffers for audio data */
-
-extern unsigned int g_curSamFreqMultiplier;
+#if SSRC_DEMO  //g_curSamFreqMultiplier is used in the old implementation of SOF notification
+    unsigned int g_curSamFreqMultiplier;
+#else
+    extern unsigned int g_curSamFreqMultiplier;
+#endif  //SSRC_DEMO
 
 #ifdef CHAN_BUFF_CTRL
 #define SET_SHARED_GLOBAL0(x,y) SET_SHARED_GLOBAL(x,y); outuchar(c_buff_ctrl, 0);
@@ -179,7 +182,8 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
 #if (NUM_USB_CHAN_IN > 0)
     unsigned bufferIn = 1;
 #endif
-    unsigned remnant = 0, cycles;
+    unsigned remnant = 0;
+    unsigned cycles;
     unsigned sofCount = 0;
     unsigned freqChange = 0;
 
@@ -336,7 +340,7 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                             /* Reset FB */
                             /* Note, Endpoint 0 will hold off host for a sufficient period to allow our feedback
                              * to stabilise (i.e. sofCount == 128 to fire) */
-                            sofCount = 0;
+                            sofCount = 1;
                             clocks = 0;
                             remnant = 0;
                             clockcounter = 0;
@@ -441,10 +445,9 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                 }
                 else
                 {
-                    unsigned mask = MASK_16_13, usb_speed;
-
+                    unsigned usb_speed;
                     GET_SHARED_GLOBAL(usb_speed, g_curUsbSpeed);
-#if 0
+#if SSRC_DEMO //#if 0
                     unsigned mask = MASK_16_13;
                     /* Original feedback implementation */
                     if(usb_speed != XUD_SPEED_HS)
@@ -453,6 +456,29 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                     /* Number of MCLKS this SOF, approx 125 * 24 (3000), sample by sample rate */
                     GET_SHARED_GLOBAL(cycles, g_curSamFreqMultiplier);
                     cycles = ((int)((short)(u_tmp - lastClock))) * cycles;
+
+//#if SSRC_DEMO  //see ssrc_demo
+                    if      (host_48 && !i2s_48){
+                        clock_remainder += (cycles * 160) % 147;
+                        cycles = (cycles * 160) / 147; //22.5792->24.576
+                        if (clock_remainder >= 147){
+                            clock_remainder -= 147;
+                            cycles++;
+                        }
+                    }
+                    else if (!host_48 && i2s_48){
+                        clock_remainder += (cycles * 147) % 160;
+                        cycles = (cycles * 147) / 160; //24.576->22.5792
+                        if (clock_remainder >= 160){
+                            clock_remainder -= 160;
+                            cycles++;
+                        }
+                    }
+                    else    {
+                        cycles = cycles;   //Do nothing because we are one the same mclk
+                        clock_remainder = 0;
+                    }
+//#endif //SSRC_DEMO
 
                     /* Any odd bits (lower than 16.23) have to be kept seperate */
                     remnant += cycles & mask;
@@ -496,7 +522,7 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
 #endif
                         clocks = 0;
                     }
-#else
+#else  //#if 0
                     /* Assuming 48kHz from a 24.576 master clock (0.0407uS period)
                      * MCLK ticks per SOF = 125uS / 0.0407 = 3072 MCLK ticks per SOF.
                      * expected Feedback is 48000/8000 = 6 samples. so 0x60000 in 16:16 format.
@@ -590,7 +616,6 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
 
                 GET_SHARED_GLOBAL(busSpeed, g_curUsbSpeed);
 
-                //printhexln(fb_clocks[0]);
                 if (busSpeed == XUD_SPEED_HS)
                 {
                     XUD_SetReady_In(ep_aud_fb, fb_clocks, 4);
