@@ -251,9 +251,9 @@ void src_manager_task(chanend c_host, chanend c_i2s, streaming chanend c_dsp[SSR
 
                 if(success) {
                     outuint(c_i2s, samp);  //Send sample to i2s
-                    if (samp) {
+                    /*if (samp) {
                         printf("Sent one sample to audio: %d\n", samp);
-                    }
+                    }*/
                 }
                 else        outuint(c_i2s, 0);     //Mute if buffer under/over-run
             }
@@ -303,7 +303,7 @@ void src_manager_task(chanend c_host, chanend c_i2s, streaming chanend c_dsp[SSR
 #pragma loop unroll
                 for (int chan_i=0; chan_i<NUM_USB_CHAN_OUT; chan_i++){  //Get samples from host
                     int samp = inuint(c_host);
-                    if (chan_i==0) xscope_int(FROM_DECOUPLE, samp);  //bak
+                    if (chan_i==0) xscope_int(FROM_DECOUPLE_LEFT, samp);  //bak
                     //if (chan_i==0) xscope_int(-1, samp);
                     g_samps_from_host[chan_i/NUM_CHANNELS_PER_SSRC]
                                      [samples_idx]
@@ -429,10 +429,6 @@ void dsp_task(streaming chanend c_dsp, unsigned instance_id)
         t:> t1;
         //printf("DSP in instance %d do dsp\n", instance_id);
         n_samps_out = dsp_process(in_buff, out_buff, instance_id);
-        if (n_samps_out_old != n_samps_out) {
-            printf("n_samps_out = %d, n_samps_out_old = %d, n_samps_in = %d\n", n_samps_out, n_samps_out_old, n_samps_in);
-            n_samps_out_old = n_samps_out;
-        }
         t :> t2;
         xscope_int(FROM_DECOUPLE_DSP_TASK, in_buff[0]);  //From decouple dsp task
         xscope_int(FROM_DSP_DSP_TASK, out_buff[0]);      //From dsp dsp task

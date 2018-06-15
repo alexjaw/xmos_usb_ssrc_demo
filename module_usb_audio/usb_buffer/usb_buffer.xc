@@ -436,7 +436,6 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                  * lastClock being incorrect */
 
                 /* Get MCLK count */
-                printf("TEST.\n");
                 asm volatile(" getts %0, res[%1]" : "=r" (u_tmp) : "r" (p_off_mclk));
 
                 GET_SHARED_GLOBAL(freqChange, g_freqChange);
@@ -450,7 +449,7 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                     unsigned usb_speed;
                     GET_SHARED_GLOBAL(usb_speed, g_curUsbSpeed);
 #if SOF_FEEDBACK_OLD
-                    printf("Running Original feedback implementation in usb_buffer.\n");
+                    //printf("Running Original feedback implementation in usb_buffer.\n");
                     unsigned mask = MASK_16_13;
                     /* Original feedback implementation */
                     if(usb_speed != XUD_SPEED_HS)

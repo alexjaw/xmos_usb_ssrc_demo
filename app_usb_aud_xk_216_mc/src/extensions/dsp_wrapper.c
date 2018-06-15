@@ -38,6 +38,9 @@ void dsp_init(unsigned sr_in, unsigned sr_out, unsigned thread_id)
     // Set number of samples
     sSSRCCtrl[instance].uiNInSamples              = SSRC_N_IN_SAMPLES;
 
+    // Set number of channels
+    sSSRCCtrl[instance].uiNchannels               = SSRC_N_IO_CHANNELS;
+
     // Set dither flag and random seeds
     sSSRCCtrl[instance].uiDitherOnOff             = SSRC_DITHER_OFF;
     sSSRCCtrl[instance].uiRndSeedInit             = 1234567;
