@@ -24,6 +24,7 @@ USED_MODULES  = module_usb_shared \
                 module_i2c_single_port \
                 module_adat_tx \
                 module_adat_rx
+                
 # Using the full path, otherwise eclipse picks up some other folder with xmake error as result (...Is a directory)
 USED_MODULES += /home/alexander/xmos-ssrc/lib_src-master/lib_src 
 # USED_MODULES += lib_src
@@ -56,9 +57,19 @@ ifeq ($(MFI), 0)
 
 # Test build configs (Note these make use of the defaults in customdefines.h)
 
-# Audio Class 2, Input, Output, MIDI, SPDIF
-XCC_FLAGS_i0o2xxxxxx = $(BUILD_FLAGS) -DMIDI=0 -DSPDIF_TX=0
-INCLUDE_ONLY_IN_i0o2xxxxxx = 
+# <! Testing out SSRC_DEMO configs
+# Audio Class 2, 0 Input, 2 Output
+XCC_FLAGS_i0o2xxxxxx = $(BUILD_FLAGS) -DSSRC_DEMO=0 -DSOF_FEEDBACK_OLD=0 -DMIDI=0 -DSPDIF_TX=0
+INCLUDE_ONLY_IN_i0o2xxxxxx =
+
+# Audio Class 2, using old implementation of SOF in usb_buffer.xc
+XCC_FLAGS_i0o2xxxxxx_oldsof = $(BUILD_FLAGS) -DSSRC_DEMO=0 -DSOF_FEEDBACK_OLD=1 -DMIDI=0 -DSPDIF_TX=0
+INCLUDE_ONLY_IN_i0o2xxxxxx_oldsof =  
+
+# Audio Class 2, with SSRC and with old implementation of SOF in usb_buffer.xc
+XCC_FLAGS_i0o2xxxxxx_ssrc_oldsof = $(BUILD_FLAGS) -DSSRC_DEMO=1 -DSOF_FEEDBACK_OLD=1 -DMIDI=0 -DSPDIF_TX=0
+INCLUDE_ONLY_IN_i0o2xxxxxx_ssrc_oldsof =
+# Testing out SSRC_DEMO configs!>
 
 # Audio Class 2, Input (8), Output (8), No MIDI, No SPDIF i/o, No ADAT i/o, TDM mode
 XCC_FLAGS_2i8o8xxxxx_tdm8  = $(BUILD_FLAGS) -DI2S_CHANS_DAC=8 -DI2S_CHANS_ADC=8 -DNUM_USB_CHAN_OUT=8 -DNUM_USB_CHAN_IN=8 \

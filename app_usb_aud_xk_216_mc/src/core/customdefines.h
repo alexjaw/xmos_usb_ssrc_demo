@@ -58,12 +58,18 @@
 #define SPDIF_TX	       1
 #endif
 
-#define CODEC_MASTER       0 //Put DAC into I2S slave mode
-#define SSRC_DEMO          1 //Inserts SSRC manager and DSP processing engines
-#if SSRC_DEMO
-#define PRODUCT_STR        "USB Audio 2.0 with SSRC Demo"
+/* Enable/Disable old implementation of SOF in usb_buffer.xc, to be used withh SSRC_DEMO */
+#ifndef SOF_FEEDBACK_OLD
+#define SOF_FEEDBACK_OLD   0
 #endif
 
+/* Enable/Disable ssrc_demo and dsp processing, see https://www.xcore.com/viewtopic.php?f=26&t=6593 */
+#ifndef SSRC_DEMO
+#define SSRC_DEMO          0
+#else
+#define CODEC_MASTER       0 //Put DAC into I2S slave mode
+#define PRODUCT_STR        "USB Audio 2.0 with SSRC Demo"
+#endif
 
 /* Defines relating to channel count and channel arrangement (Set to 0 for disable) */
 //:audio_defs
