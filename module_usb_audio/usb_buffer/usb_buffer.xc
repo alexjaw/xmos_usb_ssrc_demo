@@ -1,6 +1,7 @@
 
 #include <xs1.h>
 #include <print.h>
+#include <stdio.h>
 
 #include "devicedefines.h"
 #ifdef MIDI
@@ -22,13 +23,21 @@
 unsigned char g_hidData[1] = {0};
 #endif
 
+#if SSRC_DEMO
+on tile[1]: out port p_row = XS1_PORT_4C;
+on tile[1]: out port p_col = XS1_PORT_4D;
+#endif
+
 void GetADCCounts(unsigned samFreq, int &min, int &mid, int &max);
 #define BUFFER_SIZE_OUT       (1028 >> 2)
 #define BUFFER_SIZE_IN        (1028 >> 2)
 
 /* Packet nuffers for audio data */
-
-extern unsigned int g_curSamFreqMultiplier;
+#if SSRC_DEMO  || SOF_FEEDBACK_OLD //g_curSamFreqMultiplier is used in the old implementation of SOF notification
+    unsigned int g_curSamFreqMultiplier;
+#else
+    extern unsigned int g_curSamFreqMultiplier;
+#endif  //SSRC_DEMO || SOF_OLD
 
 #ifdef CHAN_BUFF_CTRL
 #define SET_SHARED_GLOBAL0(x,y) SET_SHARED_GLOBAL(x,y); outuchar(c_buff_ctrl, 0);
@@ -130,6 +139,9 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
 #ifdef CHAN_BUFF_CTRL
             , chanend c_buff_ctrl
 #endif
+#if SSRC_DEMO
+            , chanend c_i2s_sampfreq
+#endif
             )
 {
     XUD_ep ep_aud_out = XUD_InitEp(c_aud_out);
@@ -172,6 +184,7 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
     unsigned bufferIn = 1;
 #endif
     unsigned remnant = 0;
+    unsigned cycles;
     unsigned sofCount = 0;
     unsigned freqChange = 0;
 
@@ -220,6 +233,15 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
     unsigned iap_ea_native_incoming = 0;
 
 #endif
+#endif
+
+#if SSRC_DEMO
+    unsigned i2s_sampfreq = DEFAULT_FREQ;
+    unsigned host_48 = (DEFAULT_FREQ % 48000 == 0);
+    unsigned i2s_48 = (DEFAULT_FREQ % 48000 == 0);
+    unsigned clock_remainder = 0;        //This is the carry term from the 147/160 or 160/147 calc
+    unsigned toggle = 0;                 //Used for LED muxing
+    unsigned led_row, led_col;
 #endif
 
     /* Store EP's to globals so that decouple() can access them */
@@ -291,6 +313,7 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                 break;
             }
 #endif
+
             /* Sample Freq or chan count update from Endpoint 0 core */
             case testct_byref(c_aud_ctl, u_tmp):
             {
@@ -392,6 +415,16 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                 break;
             }
 
+
+            //Extra case to hand receiving physical MCLK value on pins
+#if SSRC_DEMO
+            case c_i2s_sampfreq :> i2s_sampfreq:
+                host_48 = (sampleFreq % 48000 == 0);   //Check for 48 family of SRs
+                i2s_48  = (i2s_sampfreq % 48000 == 0); //Check for 48 family of SRs
+            break;
+#endif
+
+
             #define MASK_16_13            (7)   /* Bits that should not be transmitted as part of feedback */
             #define MASK_16_10            (127) /* For Audio 1.0 we use a mask 1 bit longer than expected to avoid Windows LSB issues */
                                                 /* (previously used 63 instead of 127) */
@@ -415,7 +448,8 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                 {
                     unsigned usb_speed;
                     GET_SHARED_GLOBAL(usb_speed, g_curUsbSpeed);
-#if 0
+#if SOF_FEEDBACK_OLD
+                    //printf("Running Original feedback implementation in usb_buffer.\n");
                     unsigned mask = MASK_16_13;
                     /* Original feedback implementation */
                     if(usb_speed != XUD_SPEED_HS)
@@ -424,6 +458,29 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
                     /* Number of MCLKS this SOF, approx 125 * 24 (3000), sample by sample rate */
                     GET_SHARED_GLOBAL(cycles, g_curSamFreqMultiplier);
                     cycles = ((int)((short)(u_tmp - lastClock))) * cycles;
+
+#if SSRC_DEMO
+                    if (host_48 && !i2s_48){
+                        clock_remainder += (cycles * 160) % 147;
+                        cycles = (cycles * 160) / 147; //22.5792->24.576
+                        if (clock_remainder >= 147){
+                            clock_remainder -= 147;
+                            cycles++;
+                        }
+                    }
+                    else if (!host_48 && i2s_48){
+                        clock_remainder += (cycles * 147) % 160;
+                        cycles = (cycles * 147) / 160; //24.576->22.5792
+                        if (clock_remainder >= 160){
+                            clock_remainder -= 160;
+                            cycles++;
+                        }
+                    }
+                    else    {
+                        cycles = cycles;   //Do nothing because we are one the same mclk
+                        clock_remainder = 0;
+                    }
+#endif //SSRC_DEMO
 
                     /* Any odd bits (lower than 16.23) have to be kept seperate */
                     remnant += cycles & mask;
@@ -467,7 +524,7 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
 #endif
                         clocks = 0;
                     }
-#else
+#else  //SOF_FEEDBACK_OLD
                     /* Assuming 48kHz from a 24.576 master clock (0.0407uS period)
                      * MCLK ticks per SOF = 125uS / 0.0407 = 3072 MCLK ticks per SOF.
                      * expected Feedback is 48000/8000 = 6 samples. so 0x60000 in 16:16 format.
@@ -534,7 +591,7 @@ void buffer(register chanend c_aud_out, register chanend c_aud_in,
 #endif
                         clockcounter = 0;
                     }
-#endif
+#endif //SOF_FEEDBACK_OLD
 
                     sofCount++;
                 }

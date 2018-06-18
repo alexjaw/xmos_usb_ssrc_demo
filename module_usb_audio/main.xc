@@ -33,6 +33,10 @@
 #include "mixer.h"
 #endif
 
+#if SSRC_DEMO
+#include "src_manager.h"
+#endif
+
 #ifdef SPDIF_RX
 #include "SpdifReceive.h"
 #endif
@@ -286,6 +290,9 @@ void usb_audio_core(chanend c_mix_out
 , chanend ?c_clk_int
 , chanend ?c_clk_ctl
 , client interface i_dfu ?dfuInterface
+#if SSRC_DEMO
+, chanend c_i2s_sampfreq
+#endif
 )
 {
     chan c_sof;
@@ -373,6 +380,9 @@ void usb_audio_core(chanend c_mix_out
 #ifdef CHAN_BUFF_CTRL
                 , c_buff_ctrl
 #endif
+#if SSRC_DEMO
+                , c_i2s_sampfreq
+#endif
             );
             //:
         }
@@ -411,12 +421,15 @@ void usb_audio_io(chanend c_aud_in, chanend ?c_adc,
 #if (XUD_TILE != 0)
     , server interface i_dfu dfuInterface
 #endif
+#if SSRC_DEMO
+    , chanend c_i2s_sampfreq
+#endif
 #if (NUM_PDM_MICS > 0)
     , chanend c_pdm_pcm
 #endif
 )
 {
-#ifdef MIXER
+#if defined(MIXER) || defined(SSRC_DEMO)
     chan c_mix_out;
 #endif
 
@@ -435,10 +448,18 @@ void usb_audio_io(chanend c_aud_in, chanend ?c_adc,
             mixer(c_aud_in, c_mix_out, c_mix_ctl);
         }
 #endif
+
+#if SSRC_DEMO
+        /* Mixer cores(s) */
+        {
+            thread_speed();
+            src_manager(c_aud_in, c_mix_out, c_i2s_sampfreq);
+        }
+#endif
         /* Audio I/O Core (pars additional S/PDIF TX Core) */
         {
             thread_speed();
-#ifdef MIXER
+#if defined(MIXER) || SSRC_DEMO
 #define AUDIO_CHANNEL c_mix_out
 #else
 #define AUDIO_CHANNEL c_aud_in
@@ -480,6 +501,7 @@ void usb_audio_io(chanend c_aud_in, chanend ?c_adc,
 #ifndef USER_MAIN_CORES
 #define USER_MAIN_CORES
 #endif
+//::
 
 /* Main for USB Audio Applications */
 int main()
@@ -541,6 +563,10 @@ int main()
     #define dfuInterface null
 #endif
 
+#if SSRC_DEMO
+    chan c_i2s_sampfreq;
+#endif
+
 #if (NUM_PDM_MICS > 0)
     chan c_pdm_pcm;
 #endif
@@ -573,7 +599,9 @@ int main()
                 , c_mix_ctl
 #endif
                 , c_clk_int, c_clk_ctl, dfuInterface
-
+#if SSRC_DEMO
+                , c_i2s_sampfreq
+#endif
             );
         }
 
@@ -588,6 +616,11 @@ int main()
 #if XUD_TILE != 0
             , dfuInterface
 #endif
+
+#if SSRC_DEMO
+            , c_i2s_sampfreq
+#endif
+
 #if (NUM_PDM_MICS > 0)
             , c_pdm_pcm
 #endif

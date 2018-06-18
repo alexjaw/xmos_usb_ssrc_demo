@@ -37,7 +37,7 @@
 
 /* Mixer core enabled by default */
 #ifndef MIXER
-#define MIXER              1
+#define MIXER              0
 #endif
 
 /* Mixing disabled by default */
@@ -58,24 +58,37 @@
 #define SPDIF_TX	       1
 #endif
 
+/* Enable/Disable old implementation of SOF in usb_buffer.xc, to be used withh SSRC_DEMO */
+#ifndef SOF_FEEDBACK_OLD
+#define SOF_FEEDBACK_OLD   0
+#endif
+
+/* Enable/Disable ssrc_demo and dsp processing, see https://www.xcore.com/viewtopic.php?f=26&t=6593 */
+#ifndef SSRC_DEMO
+#define SSRC_DEMO          0
+#else
+#define CODEC_MASTER       0 //Put DAC into I2S slave mode
+#define PRODUCT_STR        "USB Audio 2.0 with SSRC Demo"
+#endif
+
 /* Defines relating to channel count and channel arrangement (Set to 0 for disable) */
 //:audio_defs
 /* Number of USB streaming channels - Default is 4 in 4 out */
 #ifndef NUM_USB_CHAN_IN
-#define NUM_USB_CHAN_IN    (10)         /* Device to Host */
+#define NUM_USB_CHAN_IN    (0)         /* Device to Host */
 #endif
 #ifndef NUM_USB_CHAN_OUT
-#define NUM_USB_CHAN_OUT   (10)         /* Host to Device */
+#define NUM_USB_CHAN_OUT   (2)         /* Host to Device */
 #endif
 
 /* Number of IS2 chans to DAC..*/
 #ifndef I2S_CHANS_DAC
-#define I2S_CHANS_DAC      (8)
+#define I2S_CHANS_DAC      NUM_USB_CHAN_OUT
 #endif
 
 /* Number of I2S chans from ADC */
 #ifndef I2S_CHANS_ADC
-#define I2S_CHANS_ADC      (8)
+#define I2S_CHANS_ADC      NUM_USB_CHAN_IN
 #endif
 
 /* Channel index of SPDIF Rx channels (duplicated DAC channels 1/2 when index is 0) */
@@ -105,8 +118,8 @@
 /* Maximum frequency device runs at */
 #ifndef MAX_FREQ
 #define MAX_FREQ           (192000)
+#define MIN_FREQ           (44100)
 #endif
-
 //:
 /***** Defines relating to USB descriptors etc *****/
 //:usb_defs
@@ -117,7 +130,7 @@
 
 /* Enable/Disable example HID code */
 #ifndef HID_CONTROLS
-#define HID_CONTROLS       1
+#define HID_CONTROLS       0
 #endif
 
 #endif

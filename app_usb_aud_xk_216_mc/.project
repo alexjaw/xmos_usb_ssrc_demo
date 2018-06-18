@@ -87,4 +87,10 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 		<nature>com.xmos.cdt.core.XdeProjectNature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>GIT_LOC</name>
+			<value>file:/home/alexander/xmos-ssrc</value>
+		</variable>
+	</variableList>
 </projectDescription>

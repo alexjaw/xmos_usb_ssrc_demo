@@ -1,0 +1,12 @@
+<xSCOPEconfig ioMode="basic" enabled="true">
+    <Probe name="From decouple left" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+    <Probe name="Audio out left" type="CONTINUOUS" datatype="INT" units="Value" enabled="false"/>
+    <Probe name="From decouple dsp task" type="CONTINUOUS" datatype="INT" units="Value" enabled="false"/>
+    <Probe name="From dsp dsp task" type="CONTINUOUS" datatype="INT" units="Value" enabled="false"/>
+    <Probe name="From ssrc to fifo" type="CONTINUOUS" datatype="INT" units="Value" enabled="false"/>
+    <Probe name="To i2s" type="CONTINUOUS" datatype="INT" units="Value" enabled="false"/>
+    <Probe name="To i2s left" type="CONTINUOUS" datatype="INT" units="Value" enabled="true"/>
+    <Probe name="To i2s right" type="CONTINUOUS" datatype="INT" units="Value" enabled="false"/>
+	<Probe name="Left out" type="CONTINUOUS" datatype="INT" units="Value" enabled="false"/>
+	<Probe name="Right out" type="CONTINUOUS" datatype="INT" units="Value" enabled="false"/>
+</xSCOPEconfig>
