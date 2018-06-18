@@ -25,9 +25,9 @@ USED_MODULES  = module_usb_shared \
                 module_adat_tx \
                 module_adat_rx
                 
-# Using the full path, otherwise eclipse picks up some other folder with xmake error as result (...Is a directory)
-USED_MODULES += /home/alexander/xmos-ssrc/lib_src-master/lib_src 
-# USED_MODULES += lib_src
+# Using the full path, otherwise eclipse picks up some other folder with xmake error as result (...Is a directory)   
+# USED_MODULES += /home/alexander/xmos-ssrc/lib_src-master/lib_src
+USED_MODULES += /home/alexander/xmos-ssrc/lib_src  #not the same as the workspace, see https://gist.github.com/ahogen/93bf33ce47bb96c7fda60d844238fa43
 
 # Build config naming scheme:
 

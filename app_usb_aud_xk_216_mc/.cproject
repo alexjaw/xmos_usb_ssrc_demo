@@ -107,6 +107,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<option id="com.xmos.xc.compiler.option.defined.symbols.286304813" name="com.xmos.xc.compiler.option.defined.symbols" superClass="com.xmos.xc.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__XC__=1"/>
@@ -344,6 +355,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<option id="com.xmos.c.compiler.option.defined.symbols.1982331858" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
@@ -729,6 +751,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<option id="com.xmos.cxx.compiler.option.defined.symbols.838199973" name="com.xmos.cxx.compiler.option.defined.symbols" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
@@ -3094,6 +3127,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<inputType id="com.xmos.cdt.xc.compiler.input.62274486" name="XC" superClass="com.xmos.cdt.xc.compiler.input"/>
 							</tool>
@@ -3478,6 +3522,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<inputType id="com.xmos.cdt.c.compiler.input.c.1918488737" name="C" superClass="com.xmos.cdt.c.compiler.input.c"/>
 							</tool>
@@ -3867,6 +3922,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<inputType id="com.xmos.cdt.cxx.compiler.input.cpp.592335421" name="C++" superClass="com.xmos.cdt.cxx.compiler.input.cpp"/>
 							</tool>
@@ -6525,6 +6591,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<inputType id="com.xmos.cdt.xc.compiler.input.1210582172" name="XC" superClass="com.xmos.cdt.xc.compiler.input"/>
 							</tool>
@@ -6909,6 +6986,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<inputType id="com.xmos.cdt.c.compiler.input.c.1969074651" name="C" superClass="com.xmos.cdt.c.compiler.input.c"/>
 							</tool>
@@ -7298,6 +7386,17 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
 								<inputType id="com.xmos.cdt.cxx.compiler.input.cpp.1688741637" name="C++" superClass="com.xmos.cdt.cxx.compiler.input.cpp"/>
 							</tool>
@@ -7325,13 +7424,74 @@
 					<folderInfo id="com.xmos.cdt.toolchain.824010653.1483496613" name="/" resourcePath="">
 						<toolChain id="com.xmos.cdt.toolchain.1797387966" name="com.xmos.cdt.toolchain" superClass="com.xmos.cdt.toolchain">
 							<targetPlatform archList="all" binaryParser="com.xmos.cdt.core.XEBinaryParser;org.eclipse.cdt.core.GNU_ELF" id="com.xmos.cdt.core.platform.1967457388" isAbstract="false" osList="linux,win32,macosx" superClass="com.xmos.cdt.core.platform"/>
-							<builder arguments="CONFIG=i0o2xxxxxx_ssrc_oldsof" id="com.xmos.cdt.builder.base.166544539" keepEnvironmentInBuildfile="false" managedBuildOn="false" superClass="com.xmos.cdt.builder.base">
-								<outputEntries>
-									<entry flags="VALUE_WORKSPACE_PATH" kind="outputPath" name="bin/i0o2xxxxxx_ssrc_oldsof"/>
-								</outputEntries>
-							</builder>
+							<builder arguments="CONFIG=i0o2xxxxxx_ssrc_oldsof" id="com.xmos.cdt.builder.base.166544539" keepEnvironmentInBuildfile="false" managedBuildOn="false" superClass="com.xmos.cdt.builder.base"/>
 							<tool id="com.xmos.cdt.xc.compiler.1500219238" name="com.xmos.cdt.xc.compiler" superClass="com.xmos.cdt.xc.compiler">
-								<option id="com.xmos.xc.compiler.option.defined.symbols.1233380013" name="com.xmos.xc.compiler.option.defined.symbols" superClass="com.xmos.xc.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.xc.compiler.option.include.paths.997843541" name="com.xmos.xc.compiler.option.include.paths" superClass="com.xmos.xc.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/xc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/clang&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/pdm_mics}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/audiostream}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_midi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/xuduser}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_tx/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_dfu/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/hostactive}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/mixer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_single_port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_rx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_device}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/clocking}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_rx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_midi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_queue/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/locks}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_rx/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_single_port/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared/src/class}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/ports}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_device/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/powersave}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_rx/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_locks}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs1b}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_locks/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_tx/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_tx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/pll}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/endpoint0}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_shared}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_queue}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_tx}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/usb_buffer}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs2a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_shared/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
+								</option>
+								<option id="com.xmos.xc.compiler.option.defined.symbols.80267913" name="com.xmos.xc.compiler.option.defined.symbols" superClass="com.xmos.xc.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__XC__=1"/>
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__ATOMIC_RELAXED=0"/>
@@ -7478,98 +7638,76 @@
 									<listOptionValue builtIn="false" value="XCC_VERSION_MAJOR=1403"/>
 									<listOptionValue builtIn="false" value="XCC_VERSION_MINOR=2"/>
 									<listOptionValue builtIn="false" value="__XCC_HAVE_FLOAT__=1"/>
-									<listOptionValue builtIn="false" value="_XSCOPE_PROBES_INCLUDE_FILE=&quot;/tmp/ccUnysUA.h&quot;"/>
+									<listOptionValue builtIn="false" value="_XSCOPE_PROBES_INCLUDE_FILE=&quot;/tmp/ccUCimjc.h&quot;"/>
 								</option>
-								<option id="com.xmos.xc.compiler.option.include.paths.1525540905" name="com.xmos.xc.compiler.option.include.paths" superClass="com.xmos.xc.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/xc&quot;"/>
+								<inputType id="com.xmos.cdt.xc.compiler.input.1945973326" name="XC" superClass="com.xmos.cdt.xc.compiler.input"/>
+							</tool>
+							<tool id="com.xmos.cdt.c.compiler.1150830313" name="com.xmos.cdt.c.compiler" superClass="com.xmos.cdt.c.compiler">
+								<option id="com.xmos.c.compiler.option.include.paths.1195359841" name="com.xmos.c.compiler.option.include.paths" superClass="com.xmos.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/clang&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/ssrc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/pdm_mics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/audiostream}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_midi/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/xuduser}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_tx/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_dfu/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/hostactive}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/mixer}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/ssrc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_single_port}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_rx}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_device}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/clocking}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_rx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_midi}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_queue/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/locks}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_rx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_single_port/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared/src/class}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/ports}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_device/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/powersave}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_rx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/api}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_locks}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs1b}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_locks/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_tx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_tx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/pll}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/endpoint0}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_shared}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_queue}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/asrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_tx}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/usb_buffer}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs2a}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_shared/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/asrc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
-								<inputType id="com.xmos.cdt.xc.compiler.input.1945973326" name="XC" superClass="com.xmos.cdt.xc.compiler.input"/>
-							</tool>
-							<tool id="com.xmos.cdt.c.compiler.1150830313" name="com.xmos.cdt.c.compiler" superClass="com.xmos.cdt.c.compiler">
-								<option id="com.xmos.c.compiler.option.defined.symbols.854860073" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.c.compiler.option.defined.symbols.2121719344" name="com.xmos.c.compiler.option.defined.symbols" superClass="com.xmos.c.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__clang__=1"/>
 									<listOptionValue builtIn="false" value="__clang_major__=3"/>
@@ -7863,97 +8001,77 @@
 									<listOptionValue builtIn="false" value="XCC_VERSION_MAJOR=1403"/>
 									<listOptionValue builtIn="false" value="XCC_VERSION_MINOR=2"/>
 									<listOptionValue builtIn="false" value="__XCC_HAVE_FLOAT__=1"/>
-									<listOptionValue builtIn="false" value="_XSCOPE_PROBES_INCLUDE_FILE=&quot;/tmp/ccIujQvR.h&quot;"/>
+									<listOptionValue builtIn="false" value="_XSCOPE_PROBES_INCLUDE_FILE=&quot;/tmp/ccVVt4vl.h&quot;"/>
 								</option>
-								<option id="com.xmos.c.compiler.option.include.paths.943368776" name="com.xmos.c.compiler.option.include.paths" superClass="com.xmos.c.compiler.option.include.paths" valueType="includePath">
+								<inputType id="com.xmos.cdt.c.compiler.input.c.661409084" name="C" superClass="com.xmos.cdt.c.compiler.input.c"/>
+							</tool>
+							<tool id="com.xmos.cdt.cxx.compiler.1674987501" name="com.xmos.cdt.cxx.compiler" superClass="com.xmos.cdt.cxx.compiler">
+								<option id="com.xmos.cxx.compiler.option.include.paths.947163104" name="com.xmos.cxx.compiler.option.include.paths" superClass="com.xmos.cxx.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/clang&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/ssrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/c++/v1&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/pdm_mics}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/audiostream}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_midi/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc/pdf}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/xuduser}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_tx/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_dfu/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/doc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/FilterData}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/hostactive}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/mixer}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/ssrc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_single_port}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_rx}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_device}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/clocking}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_rx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_midi}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_queue/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/locks}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_rx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_single_port/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared/src/class}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/ports}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_device/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/powersave}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_rx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/api}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_locks}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs1b}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_locks/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_tx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst/images}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_tx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/pll}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/endpoint0}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_shared}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_queue}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/asrc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared/src}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_tx}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/usb_buffer}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/src/FilterData}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs2a}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_shared/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/asrc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_xassert/api}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/pdf}&quot;"/>
 								</option>
-								<inputType id="com.xmos.cdt.c.compiler.input.c.661409084" name="C" superClass="com.xmos.cdt.c.compiler.input.c"/>
-							</tool>
-							<tool id="com.xmos.cdt.cxx.compiler.1674987501" name="com.xmos.cdt.cxx.compiler" superClass="com.xmos.cdt.cxx.compiler">
-								<option id="com.xmos.cxx.compiler.option.defined.symbols.1557655294" name="com.xmos.cxx.compiler.option.defined.symbols" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
+								<option id="com.xmos.cxx.compiler.option.defined.symbols.1625243876" name="com.xmos.cxx.compiler.option.defined.symbols" superClass="com.xmos.cxx.compiler.option.defined.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__llvm__=1"/>
 									<listOptionValue builtIn="false" value="__clang__=1"/>
 									<listOptionValue builtIn="false" value="__clang_major__=3"/>
@@ -8251,101 +8369,12 @@
 									<listOptionValue builtIn="false" value="XCC_VERSION_MAJOR=1403"/>
 									<listOptionValue builtIn="false" value="XCC_VERSION_MINOR=2"/>
 									<listOptionValue builtIn="false" value="__XCC_HAVE_FLOAT__=1"/>
-									<listOptionValue builtIn="false" value="_XSCOPE_PROBES_INCLUDE_FILE=&quot;/tmp/ccJc0BA0.h&quot;"/>
-								</option>
-								<option id="com.xmos.cxx.compiler.option.include.paths.2111178106" name="com.xmos.cxx.compiler.option.include.paths" superClass="com.xmos.cxx.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/clang&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${XMOS_TOOL_PATH}/target/include/c++/v1&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/ssrc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/pdm_mics}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/audiostream}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_midi/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/FilterData}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/xuduser}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_tx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_dfu/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/hostactive}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/mixer}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/ssrc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_single_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_rx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_device}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/clocking}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_rx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_midi}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_queue/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/locks}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_rx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_single_port/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared/src/class}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/ports}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_device/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/FilterData}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/powersave}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_rx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_locks}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/ds3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs1b}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_locks/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_tx/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/doc/rst/images}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_adat_tx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3/FilterData}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/pll}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/endpoint0}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_shared}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/os3}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_queue}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/multirate_hifi/asrc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_shared/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_spdif_tx}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_usb_audio/usb_buffer}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3/FilterData}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_logging}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3/ds3}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib/xs2a}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_i2c_shared/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi/asrc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/multirate_hifi}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/module_xud/lib}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/doc/rst/images}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/src/fixed_factor_of_3_voice/us3_voice}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lib_src-master/lib_src/src/fixed_factor_of_3/os3}&quot;"/>
+									<listOptionValue builtIn="false" value="_XSCOPE_PROBES_INCLUDE_FILE=&quot;/tmp/ccYJmnIu.h&quot;"/>
 								</option>
 								<inputType id="com.xmos.cdt.cxx.compiler.input.cpp.110123128" name="C++" superClass="com.xmos.cdt.cxx.compiler.input.cpp"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<sourceEntries>
-						<entry excluding=".build*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
